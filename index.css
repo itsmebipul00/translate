@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    text-align: center;
+
+}
+
+.container {
+    max-width: 570px;
+    margin: 0 auto;
+    width: 90%;
+}
+
+header,
+section {
+    padding: 100px 0;
+}
+
+.inverse {
+    color: black;
+    background: yellowgreen;
+}
+
+textarea {
+    width: 80%;
+    height: 20vh;
+    display: block;
+    margin: 1em;
+    padding: 1em;
+    border: 10px solid black;
+    font-size: 2em;
+    resize: none;
+}
+
+.section-two{
+    display: flex;
+}
+
+.btn{
+    background: rgba(167, 156, 9, 0.952);
+    color: white;
+    font-size: 2em;
+    padding: 0.4em 1em;
+    border: 5px solid black;
+}
+
+.btn:hover,
+.btn:focus {
+    background: black;
+    cursor: pointer;
+}
+
+
+.output{
+    font-size: 2em;
+    font-weight: 700;
+    color: black;
+    height: 20vh;
+    width: 80%;
+    margin: 1em;
+    padding: 1em;
+    border: 10px solid black;
+
+}
+
+.svg{
+    margin: 1em;
+    padding: 0.5em;
+}
+
+.footer{
+    padding: 1em 0;
+}
